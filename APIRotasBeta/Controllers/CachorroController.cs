@@ -19,22 +19,6 @@ namespace APIRotasBeta.Controllers
             _cachorroService = cachorroService;
         }
 
-        //[HttpGet]
-        //public ActionResult<List<Cachorro>> Get() => _cachorroService.Get();
-
-        //[HttpGet("Nome/{n}", Name = "BuscaNome")]
-        //public Cachorro GetDogName(string n)
-        //{
-        //    return dogs.Find(x => x.Nome == n);
-        //}
-
-        //[HttpPost]
-        //public ActionResult<Cachorro> AdicionaDog(Cachorro dog)
-        //{
-        //    dogs.Add(dog);
-        //    return dog;
-        //}
-
         [HttpGet]
         public ActionResult<List<Cachorro>> Get()
         {
